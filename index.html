@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas/5.0.1/tocas.min.css" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- header -->
+    <section class="navinf">
+        <div class="loader-left">
+            <div class="loader">
+                <p>I'm Katherine</p>
+                <div class="words">
+                    <span class="word">平面</span>
+                    <span class="word">前端</span>
+                    <span class="word">後端</span>
+                    <span class="word">介面</span>
+                    <span class="word">影音</span>
+                </div>
+            </div>
+            <button class="learn"><a href="#container">
+                    <span class="aboutbutton" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">About More</span></a>
+            </button>
+        </div>
+        <div class="loader-right">
+            <div class="img-box">
+                <img src="img/me2.jpg" alt="me">
+            </div>
+            <div class="circle small-circle" style="top: 20%; left: 10%;"></div>
+            <div class="circle medium-circle" style="top: 90%; left: 70%;"></div>
+            <div class="circle large-circle" style="bottom: 10%; right: 10%;"></div>
+        </div>
+    </section>
+    <div id="container" class="container">
+        <div class="row">
+            <!-- 左側欄 -->
+            <div class="col-md-3">
+                <ul class="ul">
+                    <li class="li">
+                        <button class="button" id="aboutBtn">
+                            <p class="p">關於我</p>
+                        </button>
+                    </li>
+                    <li class="li">
+                        <button class="button" id="skillBtn">
+                            <p class="p">專業技能</p>
+                        </button>
+                    </li>
+                    <li class="li">
+                        <button class="button" id="experBtn">
+                            <p class="p">工作經歷</p>
+                        </button>
+                    </li>
+                    <li class="li">
+                        <button class="button" id="portBtn">
+                            <p class="p">作品集</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- 右側欄 -->
+            <div class="col-md-6">
+                <!-- 關於我 -->
+                <div id="aboutContent">
+                    <h2>關於我</h2>
+                    <p>
+                    <div class="aboutCard">
+                        <div class="header">
+                            <div class="top">
+                                <div class="closecard">
+                                    <span class="red closecard2"></span>
+                                </div>
+                                <div class="closecard">
+                                    <span class="yellow closecard2"></span>
+                                </div>
+                                <div class="closecard">
+                                    <span class="green closecard2"></span>
+                                </div>
+                                <div class="title">
+                                    <p id="title2">AboutMe.css</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="editor-content">
+                            <code class="code">
+                                  <p><span class="color-0">.陳芳伶 Katherine </span> <span>{</span></p>
+                                    <p class="property">
+                                        <span class="color-2">保持著正向且樂觀的態度面對事情，不用很厲害才開始，要先開始才會很厲害。</br>同時</span>
+                                        <span class="color-1">尋找自己跟別人的不一樣，並將它放大這樣才能比別人不平凡、不一樣！</span>
+                                      </p>
+                                  <p class="property">
+                                    <span class="color-2">2022-2024</span><span>:</span>
+                                    <span class="color-preview-1"></span><span class="">中國文化大學 資訊傳播學系碩士班</span>;
+                                  </p>
+                                  <p class="property">
+                                    <span class="color-2">2017-2021</span><span>:</span>
+                                    <span class="color-preview-1"></span><span class="">中國文化大學 資訊傳播學系、輔系資訊工程學系</span>;
+                                  </p>
+                                  <span>}</span>
+                                  <p><span class="color-0">.未來規劃 </span> <span>{</span></p>
+                                  <p class="property">
+                                    <span class="color-2">提升個人產值</span><span>:</span>
+                                    <span class="color-1">提升溝通能力與效率，以及提升解決問題能力</span>;
+                                  </p>
+                                  <p class="property">
+                                    <span class="color-2">垂直深化／橫向探索</span><span>:</span>
+                                    <span class="color-1">加強自己的專業技能深度，並嘗試接觸其他領域的專業</span>;
+                                  </p>
+                                  <p class="property">
+                                    <span class="color-2">回饋</span><span>:</span>
+                                    <span class="color-1">期望透過自身經歷協助想進入相同領域的人</span>;
+                                  </p>
+                                  <span>}</span>
+                                </code>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+                <!-- 專業技能 -->
+                <div id="skillsContent" class="[300px-767px]:is-small" style="display:none;">
+                    <h2>專業技能</h2>
+                    <div class="ts-box is-negative is-start-indicated has-light has-top-spaced-large is-raised ">
+                        <div class="ts-content">
+                            <div class="ts-header is-negative">擅長工具</div>
+                            <div class="ts-list is-unordered has-top-padded">
+                                <div class="item">辦公應用：Word、PowerPoint、Excel</div>
+                                <div class="item">前端：HTML、CSS、JavaScript、Vue</div>
+                                <div class="item">後端：PHP、Node.js、MySQL、MSSQL</div>
+                                <div class="item">影像處理：Adobe Illustrator、Adobe Photoshop</div>
+                                <div class="item">介面設計：Figma</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-box is-primary is-start-indicated has-light has-top-spaced-large is-raised">
+                        <div class="ts-content">
+                            <div class="ts-header is-primary">其他擅長工具</div>
+                            <div class="ts-list is-unordered has-top-padded">
+                                <div class="item">Adobe After Effects</div>
+                                <div class="item">Adobe Premiere Pro</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 工作經歷 -->
+                <div id="experienceContent" class="[300px-767px]:is-small" style="display:none;">
+                    <h2>工作經歷</h2>
+                    <div class="ts-timeline has-top-spaced-big">
+                        <div class="item">
+                            <div class="aside">
+                                <div class="ts-text is-bold">2024年07月-08月</div>
+                            </div>
+                            <div class="indicator">
+                                <span class="ts-icon is-laptop-code-icon"></span>
+                            </div>
+                            <div class="content ts-text is-big">
+                                桃園大眾捷運股份有限公司實習<br>
+                                <div class="ts-text is-medium">維修處　數位發展中心</div>
+                                <div class="ts-content is-rounded is-secondary has-top-spaced has-light">
+                                    <div
+                                        class="ts-list is-unordered ts-text is-medium is-justify-aligned has-leading-large">
+                                        <div class="item">協助其他同仁進行官網測試</div>
+                                        <div class="item">開發互動式的路網圖可即時查詢乘車時間與各站點票價，解決傳統式交通系統路網圖
+                                            於載具縮放時失真的問題，同時在智慧鐵路發展上也領先各地區</div>
+                                    </div>
+                                    <div class="ts-text is-description">#開發語言：HTML、CSS、JavaScript、PHP、MySQL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="aside">
+                                <div class="ts-text is-bold">2024年02月-06月</div>
+                            </div>
+                            <div class="indicator">
+                                <span class="ts-icon is-laptop-code-icon"></span>
+                            </div>
+                            <div class="content ts-text is-big">
+                                統一資訊股份有限公司實習<br>
+                                <div class="ts-text is-medium">零售部　智販機總部系統</div>
+                                <div class="ts-content is-rounded is-secondary has-top-spaced has-light">
+                                    <div
+                                        class="ts-list is-unordered ts-text is-medium is-justify-aligned has-leading-large">
+                                        <div class="item">優化交易API小工具，提高工具易用性使測試人員更方便進行交易測試</div>
+                                        <div class="item">負責規格書和流程圖撰寫，協助團隊更新系統規格書，以便於團隊溝通與開發</div>
+                                    </div>
+                                    <div class="ts-text is-description">#開發語言：ASP.NET、MS SQL</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="aside">
+                                <div class="ts-text is-bold">2022年09月-2024年01月</div>
+                            </div>
+                            <div class="indicator">
+                                <span class="ts-icon is-laptop-code-icon"></span>
+                            </div>
+                            <div class="content ts-text is-big">
+                                中國文化大學研究計畫助理
+                                <div class="ts-content is-rounded is-secondary has-top-spaced has-light">
+                                    <div
+                                        class="ts-list is-unordered ts-text is-medium is-justify-aligned has-leading-large">
+                                        <div class="item">協助教授製作與批改課程作業</div>
+                                        <div class="item">管理系所實驗室</div>
+                                        <div class="item">研究計畫製作</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="aside">
+                                <div class="ts-text is-bold">2022年10月-2023年01月</div>
+                            </div>
+                            <div class="indicator">
+                                <span class="ts-icon is-laptop-code-icon"></span>
+                            </div>
+                            <div class="content ts-text is-big">
+                                中國文化大學計畫網頁助理
+                                <div class="ts-text is-medium">財團法人華岡文教基金會網站</div>
+                                <div class="ts-content is-rounded is-secondary has-top-spaced has-light">
+                                    <div
+                                        class="ts-list is-unordered ts-text is-medium is-justify-aligned has-leading-large">
+                                        <div class="item">此系統提供華岡校友瀏覽近期活動與促進國際文化交流</div>
+                                        <div class="item">協助購買網域主機和網頁架設，以及後續相關網頁維護</div>
+                                    </div>
+                                    <div class="ts-text is-description">#開發環境：WordPress、Cloudways</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 作品集 -->
+                <div id="portfolioContent" class="[300px-767px]:is-small" style="display:none;">
+                    <h2>作品集</h2>
+                    <!-- 桃園大眾捷運官網 -->
+                    <div class="ts-conversation has-light has-top-padded-large" style="max-width: 550px">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content ">
+                            <div class="bubble">
+                                <a href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/road.html"
+                                    class="text-decoration-none" target="_blank">
+                                    <div class="author ts-text is-big is-external-link">桃園大眾捷運官網－互動式路網圖</div>
+                                </a>
+                                <div class="preview">
+                                    <div class="title">說明</div>
+                                    <div class="content">開發環境：Visual Studio Code<br>
+                                        使用技術：HTML、CSS、JavaScript、PHP、MySQL</div>
+                                    <div class="embed">
+                                        <img src="img/travel-guide-road.png">
+                                    </div>
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:04</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-conversation is-self has-top-spaced-large">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content">
+                            <div class="bubble">
+                                <div class="author">我</div>
+                                <div class="ts-text is-justify-aligned">
+                                    開發出互動式路網圖頁面，可即時查詢各票價與乘車時間，解決傳統式交通系統路網圖於縮放時失真的問題，大幅提升易用性。
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:18</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 財團法人華岡文教基金會網站 -->
+                    <div class="ts-conversation has-light has-top-padded-large" style="max-width: 550px">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content ">
+                            <div class="bubble">
+                                <a href="https://hwakang.org.tw/" class="text-decoration-none" target="_blank">
+                                    <div class="author ts-text is-big is-external-link">
+                                        財團法人華岡文教基金會網站</div>
+                                </a>
+                                <div class="text">
+                                    協助購買網域主機和網頁架設，以及後續相關網頁維護。
+                                </div>
+                                <div class="preview">
+                                    <div class="title">說明</div>
+                                    <div class="content">開發環境：WordPress建置、主機使用Cloudways</div>
+                                    <div class="embed">
+                                        <img src="img/hwakang.png">
+                                    </div>
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:34</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 畢業製作 -->
+                    <div class="ts-conversation has-light has-top-padded-large" style="max-width: 550px">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content ">
+                            <div class="bubble">
+                                <a href="https://drive.google.com/file/d/1zo4_OjDcsuY1X_Kvy_YMoFe4YBBe91RI/view"
+                                    class="text-decoration-none" target="_blank">
+                                    <div class="author ts-text is-big is-external-link">
+                                        畢業製作－達文西的秘密</div>
+                                </a>
+                                <div class="preview">
+                                    <div class="title">說明</div>
+                                    <div class="content">主要負責：程式撰寫與遊戲網頁建置<br>
+                                        開發環境：Unity<br>
+                                        使用技術：c#<br>
+                                        榮獲 2021年『CAN IC』畢業成果展評分 第二名
+                                    </div>
+                                    <div class="embed">
+                                        <img src="img/davin.jpg">
+                                    </div>
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:47</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-conversation is-self has-top-spaced-large">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content">
+                            <div class="bubble">
+                                <div class="author">我</div>
+                                <div class="ts-text is-justify-aligned">
+                                    以Unity來建置遊戲，以第一人稱視角來遊玩整個遊戲，使用鍵盤控制方向搭配滑鼠控制視角，目的是希望能讓玩
+                                    家有身歷其境的感覺。在每章關卡中設置不同的解謎小遊戲，同時結合了達文西的經典作品，像是，找出對應的撲克牌
+                                    字母、拼圖、迷宮等等。讓玩家能跟著劇情的腳步，一步步推理出事件的真相。
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:48</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 畢業製作－達文西的秘密 -->
+                    <div class="ts-conversation has-light has-top-padded-large" style="max-width: 550px">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content ">
+                            <div class="bubble">
+                                <a href="https://davinsecret.github.io/Davincisecret/" class="text-decoration-none"
+                                    target="_blank">
+                                    <div class="author ts-text is-big is-external-link">
+                                        達文西的秘密 遊戲官網</div>
+                                </a>
+                                <div class="text">
+                                    獨立開發完成，以一頁式網頁製作出遊戲官網，以便使用者瀏覽網頁時操作更為直觀，主要內容有遊戲大綱介紹、呈現部分遊戲畫面、角色介紹與展覽資訊，並架設在 GitHub 上。
+                                </div>
+                                <div class="preview">
+                                    <div class="title">說明</div>
+                                    <div class="content">開發環境：Visual Studio Code<br>
+                                        使用技術：HTML、CSS、JavaScript
+                                    </div>
+                                    <div class="embed">
+                                        <img src="img/davinsecret.png">
+                                    </div>
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 03:59</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 介面 -->
+                    <div class="ts-conversation has-light has-top-padded-large" style="max-width: 450px">
+                        <div class="avatar">
+                            <img src="img/user.png">
+                        </div>
+                        <div class="content">
+                            <div class="bubble">
+                                <a href="https://drive.google.com/drive/folders/1_SDfHiQGcz6_Jd-BfeyWXqmv9a6ms6J8?usp=sharing"
+                                    class="text-decoration-none" target="_blank">
+                                    <div class="author ts-text is-big is-external-link">
+                                        介面設計作品</div>
+                                </a>
+                                <div class="text">
+                                    使用技術：Figma、Adobe Illustrator、Adobe Photoshop
+                                </div>
+                                <div class="object">
+                                    <div class="ts-imageset is-compact is-3-images">
+                                        <div class="item">
+                                            <img src="img/foodui.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/music.jpg">
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/car.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="meta">
+                                    <div class="item">下午 04:10</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" style="display: none; position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <span class="ts-icon is-up-long-icon"></span>
+    </button>
+    <!-- footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Company, Chen</p>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="https://github.com/Chen0303"><i
+                            class="fa-brands fa-github fa-xl"></i></a></li>
+                <li class="ms-3"><a href="https://www.instagram.com/c.f_257248?igsh=c3F5bHU2MXZrM2xu"><i
+                            class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li class="ms-3"><a href="https://www.facebook.com/share/HxKBuhaQdn87GDpy/?mibextid=qi2Omg"><i
+                            class="fa-brands fa-facebook fa-xl"></i></a></li>
+
+            </ul>
+        </footer>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/3412a69327.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+
+</html>
